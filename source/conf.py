@@ -1,0 +1,34 @@
+# Configuration file for the Sphinx documentation builder.
+#
+# For the full list of built-in configuration values, see the documentation:
+# https://www.sphinx-doc.org/en/master/usage/configuration.html
+
+# -- Project information -----------------------------------------------------
+# https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
+
+project = 'sphinx_test'
+copyright = '2025, TR'
+author = 'TR'
+release = '1.0'
+
+# -- General configuration ---------------------------------------------------
+# https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
+
+extensions = [
+    'sphinxcontrib.plantuml',
+]
+
+# Path to plantuml.jar
+plantuml = 'java -jar C:/Users/bico/.plantuml/plantuml-1.2025.3.jar'
+
+
+templates_path = ['_templates']
+exclude_patterns = []
+
+
+
+# -- Options for HTML output -------------------------------------------------
+# https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
+
+html_theme = 'alabaster'
+html_static_path = ['_static']
