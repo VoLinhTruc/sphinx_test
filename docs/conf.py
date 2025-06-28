@@ -19,7 +19,7 @@ extensions = [
 ]
 
 # Path to plantuml.jar
-plantuml = 'java -jar C:/Users/bico/.plantuml/plantuml-1.2025.3.jar'
+plantuml = 'java -jar /usr/bin/plantuml.jar'
 
 
 templates_path = ['_templates']
